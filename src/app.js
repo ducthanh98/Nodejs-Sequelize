@@ -20,5 +20,5 @@ app.get('', (req, res) => {
 app.use('/api/v1', router);
 
 app.listen(3000, () => {
-    console.log('App is working now');
+    console.log('App is working now at port 3000');
 });
